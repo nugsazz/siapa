@@ -10,20 +10,19 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EmMI1U4ahF6X4bFPC2X7.fROoCb5YL8J4cs3OuFFzjW.JvUP3UcVtbCk0XcVfoPeLNj6YHz+fSXCz6qQzu3V7V4=")
 cl.loginResult()
+#ki = LINETCR.LINE()
+#ki.login(qr=True)
+#ki.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(qr=True)
-ki.loginResult()
+#kk = LINETCR.LINE()
+#kk.login(qr=True)
+#kk.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(qr=True)
-kk.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(qr=True)
-ks.loginResult()
+#ks = LINETCR.LINE()
+#ks.login(qr=True)
+#ks.loginResult()
 
 
 reload(sys)
@@ -31,7 +30,7 @@ print "login success"
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" 
-D̦̰̣ͤ̊a̰͗͒̾͂̈́ͥ̑ț̶̵̞̠͕̈́͂̇̆̕ě͘͏̷͓͈̯ ͇́͐͋A̷̼͙̟̟̰̗̘͗͛͛ͮ̅͆ͭ̚ ̝̺̼̪͑ͨͥͯ̇͂̽̓̀͞L̙̥̥̫̹̆ͨ̈́̑̂̄̈́́͘͞i̞̪̝̱̦͆̌̔ͭͪ͡͡ṽ̺͉̘̤̼͉̥̳̈ͧ̂̃́̎͟͝͝eͬ̊͜͏̠̙̱͚͈͖̱ ̱̩͇̯̬̣̮̈̓ͩ̊͟͡͠W̵̵̧͖̰̩͚̽ị̝̦͖̦̻̠̿ͪ͝͠k̵̺̜̝̳̲̟ͧ̔ͮ̄̈́͊̓ͣ̈ͅi̛̼͖͖̺ͦ̀ͪ̽̎́̀ͪ ̖̭͚́B̺̮͙̺̮̯̓̽̈ͪ̚̚͡o̸̘͖̩̳̖̊͆ͬ͊ͬ͑͌ͅt͚͖̙̻̾ͧͥͩ̄̎͒́ͧ ̿ͫͮ҉̸̠͍̳̜C̴̲͔͉͉͍̯̿̆̂̍̄ͧͯ̀o͈͎̝̮̭̮̖̎ͬm̸̨̞͖̞̤̞̥̗͂͆ͨ̂̈̐̑ͭ͢ͅḿ̸͉͕̖͚͙͕̃͋͗͘a̧ͧ͊͂͊̔̃̋ͣ͏̢̯̟̪̝ͅn̛͈ͨͫ̀̒̎̚͟d̸̗̥̼ͧ͆
+D̦̰̣ͤ̊a̰͗͒̾͂̈́ͥ̑ț̶̵̞̠͕̈́͂̇̆̕ě͘͏̷͓͈̯ ͇́͐͋A̷̼͙̟̟̰̗̘͗͛͛ͮ̅͆ͭ̚ ̝̺̼̪͑ͨͥͯ̇͂̽̓̀͞L̙̥̥̫̹̆ͨ̈́̑̂̄̈́́͘͞i̞̪̝̱̦͆̌̔ͭͪ͡͡ṽ̺͉̘̤̼͉̥̳̈ͧ̂̃́̎͟͝͝eͬ̊͜͏̠̙̱͚͈͖̱ ̖̭͚́B̺̮͙̺̮̯̓̽̈ͪ̚̚͡o̸̘͖̩̳̖̊͆ͬ͊ͬ͑͌ͅt͚͖̙̻̾ͧͥͩ̄̎͒́ͧ ̿ͫͮ҉̸̠͍̳̜C̴̲͔͉͉͍̯̿̆̂̍̄ͧͯ̀o͈͎̝̮̭̮̖̎ͬm̸̨̞͖̞̤̞̥̗͂͆ͨ̂̈̐̑ͭ͢ͅḿ̸͉͕̖͚͙͕̃͋͗͘a̧ͧ͊͂͊̔̃̋ͣ͏̢̯̟̪̝ͅn̛͈ͨͫ̀̒̎̚͟d̸̗̥̼ͧ͆
 ̯̗̳̝̙ͯ̅̐̅ͫͨ̀
 => Me
 => My mid
@@ -85,46 +84,47 @@ C͙ͣͧ̃̎̾̕O̧̱͈̺͚̯̱ͅM̅ͮ͞M͇̯̑̊͂ͣ̑̊ͤA͚̞͔͚͉̓N̑̒ͫͮ
 => Cancl on/off
 => Joinn on/off
 
-BOT : PANCY
-SUPPORT BY : L̵̛̦̝̟̼͙̬̦̝̯͒͒̊͠I̶̎̎͋̑͂̽ͥ̚҉̼̮͍͇̣̦̪͎͓Ņ̴̠̖̹͙̗͕́̏̉̔̾͋ͧ̑Ḙ̛̦̭̰̘̳̼̪̒͛̃͊̒ͮ̋́̚͡ͅ ̶̣̙͈̳͍͂̀̽̾̇̓̐ͅD͈͎͇̠̪͍͇͉̀̈͌E̵͊̀҉͔͖̭͉̘͇V͈̖̪͈̓̓ͦ̂̓̍͒̐ͅͅE̝̲͋ͨL̛̯͎̝̈̌̃́Ŏ̵͌̔ͤ͊͏̙͙ͅP̴͎͙͔̠̖̫ͬ͑͑̅̆̉̕E̸̴̠͛͂ͨR͈̫͎͒ͮ͒ͯ̀ ̶̢̯̝͕̫̮̺͊̉̿̿̽̈̅͐ͅB̙͉͉̼̫̗̟̯̽̍ͪ̋͆͂͂͘͡Ö̸̧͍̬̟͙́̅͆̎̃̕T̶̯͔̦̟̠̊̀̄̐̇́̄͂ͭ͜S̵̡͈̝̭͈̪ͮ̈̓̍̀
+
+SUPPORT BY :Suci L̵̛̦̝̟̼͙̬̦̝̯͒͒̊͠I̶̎̎͋̑͂̽ͥ̚҉̼̮͍͇̣̦̪͎͓Ņ̴̠̖̹͙̗͕́̏̉̔̾͋ͧ̑Ḙ̛̦̭̰̘̳̼̪̒͛̃͊̒ͮ̋́̚͡ͅ ̶̣̙͈̳͍͂̀̽̾̇̓̐ͅD͈͎͇̠̪͍͇͉̀̈͌E̵͊̀҉͔͖̭͉̘͇V͈̖̪͈̓̓ͦ̂̓̍͒̐ͅͅE̝̲͋ͨL̛̯͎̝̈̌̃́Ŏ̵͌̔ͤ͊͏̙͙ͅP̴͎͙͔̠̖̫ͬ͑͑̅̆̉̕E̸̴̠͛͂ͨR͈̫͎͒ͮ͒ͯ̀ ̶̢̯̝͕̫̮̺͊̉̿̿̽̈̅͐ͅB̙͉͉̼̫̗̟̯̽̍ͪ̋͆͂͂͘͡Ö̸̧͍̬̟͙́̅͆̎̃̕T̶̯͔̦̟̠̊̀̄̐̇́̄͂ͭ͜S̵̡͈̝̭͈̪ͮ̈̓̍̀
 """
-KAC=[cl,ki,kk,kc]
-DEF=[ki,kk,kc]
+KAC=[cl]
+#KAC=[cl,ki,kk,kc]
+DEF=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
+Amid = cl.getProfile().mid
+Bmid = cl.getProfile().mid
+Cmid = cl.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,]
-admin=["uddb6b470ab4b54c5fbc69d7600cc3bc811"]
-owner=["uddb6b470ab4b54c5fbc69d7600cc3bc81"]
+admin=["u16ba0e701e7297c8f8092de851f7d927"]
+owner=["u16ba0e701e7297c8f8092de851f7d927"]
 wait = {
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":True,"members":1},
+    'autoCancel':{"on":False,"members":1},
     'leaveRoom':True,
     'timeline':False,
-    'autoAdd':True,
-    'message':"TOwner line.me/ti/p/~babydino20",
+    'autoAdd':False,
+    'message':"TOwner http://line.me/ti/p/chemoet1904",
     "lang":"JP",
-    "comment":"TOwner line.me/ti/p/~babydino20",
+    "comment":"TOwner http://line.me/ti/p/chemoet1904 ",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"Miku",
-    "cName2":"Origami",
-    "cName3":"Tohka",
-    "cName4":"Kurumi",
+    "cName":" ",
+    "cName2":" ",
+    "cName3":" ",
+    "cName4":" ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "Protectgr":True,
+    "Protectgr":False,
     "Protectjoin":False,
     "Protectcancl":False,
-    "protectionOn":True,
-    "atjointicket":True,
+    "protectionOn":False,
+    "atjointicket":False,
     }
 
 wait2 = {
@@ -895,7 +895,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "uddb6b470ab4b54c5fbc69d7600cc3bc811":
+                if msg.from_ == "u16ba0e701e7297c8f8092de851f7d927":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -2841,7 +2841,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
 			cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by line.me/ti/p/~babydino")
+			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by http://line.me/ti/p/chemoet1904")
 			ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 			kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 			kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
